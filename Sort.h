@@ -1,3 +1,10 @@
+/*
+ * CSC340 Programming Methodology: In Class Exercise - Sorting Time
+ * Authors: Anthony Portelli & Adolfo von Zastrow
+ * File: Sort.h
+ * Created on August 4, 2015
+ */
+
 #ifndef __SORT_H__
 #define __SORT_H__
 #include <chrono>

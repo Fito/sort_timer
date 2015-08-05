@@ -1,3 +1,10 @@
+/*
+ * CSC340 Programming Methodology: In Class Exercise - Sorting Time
+ * Authors: Anthony Portelli & Adolfo von Zastrow
+ * File: SortingAnalysis.cpp
+ * Created on August 4, 2015
+ */
+
 #include "bubble.h"
 #include "quick.h"
 #include "radix.h"
@@ -13,32 +20,14 @@ int main() {
   Radix *radix_sort = new Radix();
 
   cout << "------- Bubble Sort -----------" << endl;
-  // bubble_sort->generateRandomList(5);
-  // cout << "Unsorted: " << endl;
-  // bubble_sort->printList();
-  // bubble_sort->sort();
-  // cout << "sorted: " << endl;
-  // bubble_sort->printList();
 
   analyze_sorting(bubble_sort);
 
   cout << "------- Quick Sort -----------" << endl;
-  // quick_sort->generateRandomList(5);
-  // cout << "Unsorted: " << endl;
-  // quick_sort->printList();
-  // cout << "Sorted: " << endl;
-  // quick_sort->sort();
-  // quick_sort->printList();
 
   analyze_sorting(quick_sort);
 
   cout << "------- Radix Sort -----------" << endl;
-  // radix_sort->generateRandomList(5);
-  // cout << "Unsorted: " << endl;
-  // radix_sort->printList();
-  // cout << "Sorted: " << endl;
-  // radix_sort->sort();
-  // radix_sort->printList();
 
   analyze_sorting(radix_sort);
 }

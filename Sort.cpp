@@ -1,5 +1,11 @@
-#include "Sort.h"
+/*
+ * CSC340 Programming Methodology: In Class Exercise - Sorting Time
+ * Authors: Anthony Portelli & Adolfo von Zastrow
+ * File: Sort.cpp
+ * Created on August 4, 2015
+ */
 
+#include "Sort.h"
 #include <iostream>
 
 using namespace std;
