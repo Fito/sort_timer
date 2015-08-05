@@ -7,7 +7,9 @@ class Quick : public Sort {
     Quick();
     double sort();
   private:
+    int getElement(int index);
     void quickSort(int first_index, int last_index);
+    void swap(int first_index, int second_index);
     int pivot(int first_index, int last_index);
 };
 
