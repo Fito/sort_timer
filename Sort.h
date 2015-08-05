@@ -10,12 +10,13 @@ using namespace std::chrono;
 
 class Sort {
   public:
+    virtual double sort();
+    void generateRandomList(int n);
+    void clearRandomList();
+  protected:
     int number_of_items;
     list<int> *random_list;
     Sort();
-    virtual double sort();
-    void generateRandomList(int n);
-    int getElement(int index);
 };
 
 #endif
