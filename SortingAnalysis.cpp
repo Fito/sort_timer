@@ -12,14 +12,35 @@ int main() {
   Quick *quick_sort = new Quick();
   Radix *radix_sort = new Radix();
 
-  cout << "------- Bubble Sort -----------" << endl;
-  analyze_sorting(bubble_sort);
+  // cout << "------- Bubble Sort -----------" << endl;
+  // bubble_sort->generateRandomList(5);
+  // cout << "Unsorted: " << endl;
+  // bubble_sort->printList();
+  // bubble_sort->sort();
+  // cout << "sorted: " << endl;
+  // bubble_sort->printList();
 
-  cout << "------- Quick Sort -----------" << endl;
-  analyze_sorting(quick_sort);
+  // analyze_sorting(bubble_sort);
 
-  cout << "------- Radix Sort -----------" << endl;
-  analyze_sorting(radix_sort);
+  // cout << "------- Quick Sort -----------" << endl;
+  // quick_sort->generateRandomList(5);
+  // cout << "Unsorted: " << endl;
+  // quick_sort->printList();
+  // quick_sort->sort();
+  // cout << "sorted: " << endl;
+  // quick_sort->printList();
+
+  // analyze_sorting(quick_sort);
+
+  // cout << "------- Radix Sort -----------" << endl;
+  quick_sort->generateRandomList(5);
+  cout << "Unsorted: " << endl;
+  quick_sort->printList();
+  cout << "Sorted: " << endl;
+  quick_sort->sort();
+  quick_sort->printList();
+
+  // analyze_sorting(radix_sort);
 }
 
 void analyze_sorting(Sort *sortObject) {

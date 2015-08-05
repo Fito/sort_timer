@@ -13,6 +13,7 @@ class Sort {
     virtual double sort();
     void generateRandomList(int n);
     void clearRandomList();
+    void printList();
   protected:
     int number_of_items;
     list<int> *random_list;
